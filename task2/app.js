@@ -25,5 +25,6 @@ if (run) {
     let h_b = (2 * S) / b;
     let h_c = (2 * S) / c;
     let h = Math.max(h_a, h_b, h_c);
+    h = h.toFixed(3);
     console.log(h);
 }
