@@ -9,7 +9,7 @@ if (run) {
     n = parseInt(n);
     let sum = 1;
     for (let i = 2; i <= n; i++) {
-        console.log(i);
+        // console.log(i);
         let isPrime = true;
         for (let j = 2; j < i; j++) {
             if (i % j === 0) {
