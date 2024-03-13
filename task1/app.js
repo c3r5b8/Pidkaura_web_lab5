@@ -17,9 +17,6 @@ if (run) {
     s = a * b / 2;
     sb = s * 4;
     sb = sb.toFixed(3);
-    console.log(a);
-    console.log(b);
-    console.log(s);
     console.log(sb);
 }
 
