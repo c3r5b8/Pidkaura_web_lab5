@@ -12,8 +12,14 @@ if (isNaN(h)) {
 if (run) {
     V = parseInt(V);
     h = parseInt(h);
-    let sb = Math.sqrt(3 * V * h + h * h * h) / 2;
+    a = Math.sqrt(3 * V / h);
+    b = Math.sqrt(h * h + ((a / 2) * (a / 2)));
+    s = a * b / 2;
+    sb = s * 4;
     sb = sb.toFixed(3);
+    console.log(a);
+    console.log(b);
+    console.log(s);
     console.log(sb);
 }
 
